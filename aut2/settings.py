@@ -9,10 +9,8 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-
-import os
 import django_heroku
-
+import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,9 +25,9 @@ SECRET_KEY = '=jnd_b-^gf0&u4(ae*@0s$mmzy=04-ylpvx5e$r=$z8!wo060z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['youtube-content-analysis.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['Youtube_video_analysis.herokuapp.com','127.0.0.1']
 #'automate-proc.herokuapp.com' , '127.0.0.1'
-ALLOWED_HOSTS = [*]
+#ALLOWED_HOSTS = [*]
 
 # Application definition
 
